@@ -1,0 +1,7 @@
+<ul>
+  {{#each model as |article|}}
+    {{article-edit article=article}}
+  {{/each}}
+</ul>
+
+{{new-article saveArticle="saveArticle"}}
