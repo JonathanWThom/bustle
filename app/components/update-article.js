@@ -9,7 +9,7 @@ export default Ember.Component.extend({
     update(article) {
       var params = {
         headline: this.get('headline'),
-        article: this.get('article'),
+        content: this.get('content'),
         authors: this.get('authors'),
         image: this.get('image'),
       };
